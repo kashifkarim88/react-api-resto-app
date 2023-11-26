@@ -1,0 +1,25 @@
+.parent-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parent-wrapper .parent-heading{
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    width: 250px;
+    background: rgba(43, 42, 42, 0.862);
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+
+.parent-wrapper .card-div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}

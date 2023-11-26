@@ -1,0 +1,77 @@
+.resto-card{
+    width: 400px;
+    background-color: white;
+    display: flex;
+    box-shadow: 5px 5px 10px #888888;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left:10px ;
+    border-radius: 5px;
+    color: black;
+    box-sizing: border-box;
+}
+
+.resto-card:hover{
+    box-shadow: 7px 7px 10px cadetblue;   
+}
+
+.resto-card h1{
+    background-color: rgb(21, 191, 197);
+    color: white;
+    padding: 5px;
+    border-radius: 10px 0 0 10px;
+}
+.resto-card :nth-child(1){
+    margin-bottom: 30px;
+}
+.resto-card :nth-child(2){
+    margin-bottom: 40px;
+
+    box-sizing: border-box;
+}
+.resto-card p{
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.buttons-div{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+}
+
+.buttons-div button{
+    width: 80px;
+    height: 25px;
+    border: none;
+    outline: none;
+    color: #ffff;
+    font-weight: 400;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons-div :nth-child(1){
+    background-color: rgba(227, 37, 37, 0.866);
+}
+.buttons-div :nth-child(2){
+    background-color: cadetblue;
+}
+
+.buttons-div :nth-child(1):hover{
+    box-shadow: 5px 5px 0px cadetblue;
+}
+.buttons-div :nth-child(2):hover{
+    box-shadow: 5px 5px 0px rgba(227, 37, 37, 0.866);
+}
+
+@media screen and (max-width:500px) {
+    .resto-card{
+        width: 90dvw;
+        box-shadow: 1px 1px 5px #888888;
+    }
+}

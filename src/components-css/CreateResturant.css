@@ -1,0 +1,77 @@
+
+.creat-resturant-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60dvh;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid cadetblue;
+    box-shadow: 5px 5px 10px #888888;
+    padding: 20px;
+    margin-top: 40px;
+    width: 350px;
+    border-radius: 15px;
+}
+.form h1{
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding:10px;
+    display: flex;
+    background-color: rgba(43, 42, 42, 0.862);
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+
+.form input{
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid cadetblue;
+    color: #000;
+    outline: none;
+}
+
+.form button{
+    padding: 10px;
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+.form:hover{
+    box-shadow: 7px 7px 10px cadetblue;
+}
+
+.form button:hover{
+    background-color: #fff;
+    color: cadetblue;
+    box-shadow: 5px 5px 0px cadetblue;
+    outline: 1px solid cadetblue;
+}
+
+@media screen and (max-width:500px) {
+    .form{
+        width: 300px;
+    }
+    .form h1{
+        width: 250px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .form input{
+        width: 250px;
+    }
+}

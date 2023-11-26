@@ -1,0 +1,96 @@
+.parent-div-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80dvh;
+}
+.child-div-login{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 5px 5px 20px rgba(43, 42, 42, 0.862);
+    transition: 0.5s ease-in-out;
+    
+}
+
+.child-div-login:hover{
+    box-shadow: 5px 5px 20px cadetblue; 
+    transform: translateY(30px);
+    padding-bottom: 50px;
+}
+
+
+.child-div-login h1{
+    background-color: rgba(43, 42, 42, 0.862);
+    color: #ffff;
+    padding:15px 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.child-div-login input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.child-div-login input:focus{
+    outline: 2px solid cadetblue;
+    border: none;
+}
+
+.child-div-login button{
+    background-color: cadetblue;
+    color: #ffff;
+    font-weight: 600;
+    padding: 10px;
+    width: 130px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    margin-bottom: 50px;
+    transition: 0.3s ease-in-out;
+}
+.child-div-login button:hover{
+    background-color: #ffff;
+    color: cadetblue;
+    outline: 1px solid cadetblue;
+    border: none;
+    border-radius: 5px;
+}
+
+.child-div-login .signup-link{
+    text-decoration: none;
+    color: rgba(43, 42, 42, 0.862);
+    transition: 0.1s ease-in-out;
+}
+
+.child-div-login .signup-link:hover{
+    color: cadetblue;
+    text-shadow: 1px 1px 5px cadetblue;
+}
+
+@media screen and (max-width:500px) {
+    .child-div-login{
+        width: 90dvw;   
+    }
+    .child-div-login h1{
+        width: 250px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .child-div-login input{
+        width: 250px;
+        margin: 5px 0;
+    }
+    .child-div-login .signup-link{
+        font-size: 12px;
+    }
+}
